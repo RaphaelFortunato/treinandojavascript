@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+hr{
+	display: none;
+}
+
+img{
+	border:none;
+}
+
+body{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+}
+
+#base{
+	width: 980px;
+	margin: 0 auto;
+	border: 1px solid #666;
+}
+
+/*** MENU TOPO***/
+
+#menuTopo{
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #999;
+	background-image: url(../img/fundoMenu.jpg);
+	background-repeat: repeat-x;
+}
+
+#menuTopo ul li{
+	list-style: none;
+	padding: 8px;
+	font-family: tahoma;
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	display: inline;
+}
+
+#menuTopo ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 12px 8px 9px 8px;
+}
+
+#menuTopo ul li a:hover{	
+	color: #fff;
+	background-color: #8dc502;
+	padding: 12px 8px 9px 8px;
+}
+
+
+
+/***fim***/
+
+/**TOPO**/
+#topo{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	height: 57px;
+}
+
+#topo #logo{
+	background-image: url(../img/logo.jpg);
+	width: 348px;
+	height: 73px;
+	float: left;
+}
+
+#topo #telefone{
+	background-image: url(../img/fone.jpg);
+	width: 172px;
+	height: 54px;
+	float: right;
+}
+
+/**FIM topo**/
+
+/**MENU PRINCIPAL**/
+#MenuPrincipal{
+	background-color: #666;
+	width: auto;
+	height: 24px;
+	border: 1px solid #000;
+	padding: 10px;
+	
+}
+
+#MenuPrincipal ul li{
+	list-style: none;
+	display: inline;
+	padding: 5px;
+}
+
+#MenuPrincipal ul li a{
+	font-size: "trebuchet MS", arial;
+	font-size: 20px;
+	text-decoration: none;
+	color: #ccc;
+	text-transform: uppercase;
+	padding: 10px 8px 10px 8px;
+}
+
+#MenuPrincipal ul li a:hover{
+	background-color: #8dc502;
+	color: #fff;
+	padding: 10px 8px 10px 8px;
+}
+
+#cel{
+	height: 90px;
+	width: 90px;
+	float: right;
+	margin-top: -43px;
+}
+
+/**FIM**/
+
+
+#painel{
+	width: 740px;
+	height: 422px;
+	background-image: url(../img/painelPrincipal.jpg);
+	border: 1px solid #666;
+	float: left;
+}
+
+#painel h1{
+	font-family: "trebuchet MS", arial;
+	font-size: 80px;
+	color: #666;
+	padding: 50px 0 0 20px;
+	
+}
+
+#painel h2{
+	font-family: "trebuchet MS", arial;
+	font-size: 15px;
+	color: #666;
+	padding: 10px 0 0 20px;
+}
+
+#painel h3{
+	font-family: "trebuchet MS", arial;
+	font-size: 35px;
+	color: #000;
+	padding: 10px 0 0 20px;
+}
+
+#painel img{
+	padding: 30px 0 0 20px;
+}
+
+#painelLink{
+	float: right;
+	width: 236px;
+	border: 1px solid #666;
+}
+
+#CaixasProdutos{}
+
+#CaixasProdutos h4{
+	font-family: arial;
+	font-size: 20px;
+	border-bottom: 1px solid #999;
+}
+
+#CaixasProdutos div{
+	width: 250px;
+	height: auto;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+#CaixasProdutos div h3{
+	font-family: arial;
+	font-size: 18px;
+}
+
+#CaixasProdutos div h6{
+	font-family: arial;
+	font-size: 12px;
+}
+
+#banner{
+	float: right;
+	width: 200px;
+}
+
+#rodape{
+	padding: 30px 0 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

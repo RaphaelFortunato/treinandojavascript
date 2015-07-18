@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>Meu Javascript</title>
+		<meta charset="utf-8">
+		<sscript type="text/javascript" src="js/javascript.js"></sscript>
+		
+		
+	</head>
+	
+	<body>
+		<a href="pagina.html" onClick="alert('Você não será redirecionado!'); return false">Este é um link. Clique aqui</a>
+		
+		<br><br><br>
+		
+		<img src="img/produto4.jpg" onmouseover="this.src='img/produto5.jpg'" onmouseout="this.src='img/produto4.jpg'">
+		
+		<br><br><br>
+		
+			<script type="text/javascript">
+		
+				var precoProduto
+				 precoProduto = 4.35;
+				var quantidadeProduto;
+				 quantidadeProduto = 5;
+				var valorTotal;
+				 valorTotal = precoProduto * quantidadeProduto;
+				var mensagem;
+				 mensagem = 'O resulto da multiplicação de 4.35 * 5 é ' + ' ' + valorTotal;		
+				document.write(mensagem);
+			</script>
+		
+		<br><br><br>
+		
+		
+			<script type="text/javascript">
+				var valor1 = 10;
+				var valor2 = 11;
+				
+				if(valor1 > valor2){
+					document.write(" O Valor1 é maior que valor2");
+				} 
+				
+					else{
+						document.write(" O Valor1 é menor que Valor2");
+				}
+			</script>
+			
+			<br><br><br>
+			
+			<script type="text/javascript">
+				var farol = "Vermelho";
+				
+				switch(farol){
+					case "Vermelho" :
+					 document.write('Pare');
+					 break;
+					
+					case "Amarelo" :
+					 document.write("Tenha cuidado");
+					 break;
+					 
+					case "Verde" :
+					 document.write("Siga");
+					 break;
+					 
+					default:
+					 document.write("Cor inesistente");
+				
+				}
+	
+			</script>
+						
+			<br><br><br>
+			
+			<script type="text/javascript">
+				var i;
+				
+				for(i = 1; i < 20; i++){
+					document.write(i + " ");
+				
+				}
+				
+			</script>
+			
+			<br><br><br>
+			
+			<script type="text/javascript">
+				var i=0;
+				while(i<10) {
+					document.write(i + " ");
+					i++;
+				}
+					
+			</script>
+			
+			<br><br><br>
+			
+			<script type="text/javascript">
+				function somar(a,b,c,d,e) {
+					return a+b+c+d+e;
+				}
+				
+				document.write(somar(15,15,10,10,10));
+			
+		</script>
+		
+		<br><br><br>
+			
+			<a href="#" onClick="document.write(somar(5,5,5,5,5))"> Clique aqui</a>
+			
+	</body>
+</html>
